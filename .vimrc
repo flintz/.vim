@@ -23,8 +23,11 @@ syntax enable
 syntax on
 
 set backspace=indent,eol,start    "Enable BackSpace.
+
+"“Hybrid” line numbers=======================
 "set number 
-set nonumber 
+"set nonumber 
+set number! relativenumber!
 set numberwidth=3                 "Set foldcolumn=3
 set noerrorbells visualbell t_vb= "No dawn bells! Settings visualbell.
 set ls=2
